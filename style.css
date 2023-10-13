@@ -1,0 +1,56 @@
+#profile-img {
+    border-radius: 50%;
+}
+
+.resume-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.text-gradient {
+    --bg-size: 400%;
+    --color-one:#8100cc;
+    --color-two:  #d30000;
+    background: linear-gradient(
+                  90deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+  }
+
+/* .gradient-bg {
+    background: linear-gradient(240deg, #7409b0, #a11313);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 73%}
+    50%{background-position:100% 28%}
+    100%{background-position:0% 73%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 73%}
+    50%{background-position:100% 28%}
+    100%{background-position:0% 73%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 73%}
+    50%{background-position:100% 28%}
+    100%{background-position:0% 73%}
+} */
